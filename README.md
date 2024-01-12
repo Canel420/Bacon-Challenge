@@ -16,11 +16,11 @@ To get a local copy up and running, follow these steps:
 
 1. Clone the repo
    ```bash
-   git clone https://github.com/your_username_/Project-Name.git
+   git clone https://github.com/Canel420/Bacon-Challenge.git bacon
 
 2. Navigate to the project directory
    ```bash
-   cd Project-Name
+   cd bacon
 
 3. Create a virtual environment
    ```bash
