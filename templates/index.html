@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Bacon</title>
+    <link rel="stylesheet" type="text/css" href="/static/css/styles.css">
+</head>
+<body>
+    <h1>Get your Bacons</h1>
+    <p class="description">We are about to analyze some bacon text from <a href="https://baconipsum.com/json-api/">https://baconipsum.com/json-api/</a>. 
+       You give us the number of Bacon paragraphs we are about to analyze and in return, we will get you some cool statistics on the downloaded PDF.</p>
+    <input type="number" id="inputNumber" placeholder="Enter a number">
+    <button onclick="downloadPDF()">Download PDF</button>
+    <p id="message"></p>
+
+    <script src="/static/js/downloadPdf.js"></script>
+
+    <h2>Wanna check the most common words in the world?</h2>
+    <button onclick="mostCommonWords()">Click here</button>
+    <div id="commonWords"></div>
+
+    <script src="/static/js/mostCommonWords.js"></script>
+</body>
+</html>
