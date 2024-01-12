@@ -6,6 +6,18 @@ The Bacon Challenge is a simple web application that fetches paragraphs from the
 ## Built With
 - [Flask](https://flask.palletsprojects.com/): A lightweight WSGI web application framework.
 
+## Methodology
+
+This simple web application is built with a scalable and maintainable architecture in mind. The project is structured into three main components:
+
+1. **Routes**: This folder contains all the API routes. Each route corresponds to a specific functionality of the application, making it easy to understand and manage the different endpoints of the application.
+
+2. **Controllers**: This folder contains the logic for handling requests and responses. Each function in this folder corresponds to a route and contains the logic for processing the request and generating the response.
+
+3. **Models**: This folder contains the definitions for the database tables. Each file in this folder corresponds to a table in the database, and defines the structure of the table.
+
+This structure ensures that different aspects of the application are separated and can be developed and maintained independently. It also makes it easy to scale the application, as new routes, controllers, and models can be added as needed without affecting the existing code.
+
 ## Features
 - Dynamically fetches paragraphs from the Bacon Ipsum API.
 - Performs word analysis on the fetched paragraphs.
